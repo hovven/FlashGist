@@ -15,7 +15,7 @@ A powerful tool harnessing the potential of AI to generate concise summaries fro
 
 - Python 3.8+
 - An active Telegram Bot Token
-- [Whisper](https://link-to-whisper) for video transcription (or any other service you're using)
+- [Whisper](https://github.com/openai/whisper) for video transcription (or any other service you're using)
 
 ### Installation
 
@@ -39,9 +39,7 @@ A powerful tool harnessing the potential of AI to generate concise summaries fro
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file in the root directory and add your configurations (use 
-
-`.env.sample` as a reference).
+4. Create a `.env` file in the root directory and add your configurations
 
 5. Run the bot:
 
