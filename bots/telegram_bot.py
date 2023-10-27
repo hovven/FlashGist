@@ -24,14 +24,14 @@ async def start(client, message):
 @app.on_message(filters.video)
 async def handle_video(client, message):
     await message.reply_text("Processing your video...")
-    logging.Logger.info("Processing the video...")
+    logging.info("Processing the video...")
     video_path = await message.download()
 
     # Transcribe
     transcript = transcribe_video(video_path)
     transcript_chunks = chunk_text(transcript)
 
-    logging.Logger.info("summarizing...")
+    logging.info("summarizing...")
 
     summaries = []
 
