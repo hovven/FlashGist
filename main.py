@@ -1,8 +1,8 @@
 from bots import telegram_bot
 from utils.helpers import setup_logging
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
-load_dotenv()
+load_dotenv(find_dotenv())
 logger = setup_logging()
 
 if __name__ == "__main__":

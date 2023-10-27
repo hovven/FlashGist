@@ -2,6 +2,9 @@ import logging
 from collections import deque
 import openai
 import os
+from dotenv import find_dotenv, load_dotenv
+
+load_dotenv(find_dotenv())
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
@@ -56,6 +59,6 @@ def summarize_chunk(chunk):
         frequency_penalty=0,
         presence_penalty=0
     )
-    logging.Logger.info("printing the response")
-    logging.Logger.info(response)
+    logging.info("printing the response")
+    logging.info(response)
     return response.choices[0].message.content
