@@ -2,7 +2,7 @@ certifi==2023.7.22
 cffi==1.15.1
 charset-normalizer==3.3.0
 distlib==0.3.7
-docutils @ file:///private/tmp/docutils-20230831-5903-jytmsf/docutils-0.20.1
+docutils==0.20.1
 filelock==3.12.4
 fsspec==2023.9.2
 idna==3.4
