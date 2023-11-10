@@ -1,3 +1,5 @@
+[![Workflow](https://github.com/hovven/FlashGist/actions/workflows/python-app.yml/badge.svg)](https://github.com/hovven/FlashGist/actions/workflows/python-app.yml)
+
 # FlashGist
 
 A powerful tool harnessing the potential of AI to generate concise summaries from video content. Integrated with Telegram, FlashGist enables users to get the essence of any video they desire swiftly.
